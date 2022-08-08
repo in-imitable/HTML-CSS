@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BOOKS TRACK</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="BT.png" class="logo">
+
+                <ul class="main-nav animated slideInDown" id="check-class">
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">PROFILE</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+                <a href="#" class="icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+
+        <div class="main-content-header">
+            <h1>BOOKS TRACK <span class="colorchange">AUDIOBOOKS</span>.<br>
+                TO GROW UP YOUR MIND.</h1>
+            <a href="#" class="btn btn-full">click to join</a>
+            <a href="#" class="btn btn-nav">click to more</a>
+        </div>
+    </header>
+
+    <script type="text/javascript">
+        function slideshow() {
+            var x = document.getElementById('check-class');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
